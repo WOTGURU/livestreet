@@ -7,7 +7,12 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 18px;
 	color: #333;
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
+	/****************************************************************/
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-image: url('http://wot.guru/uploads/images/backgrounds/01.jpg');
+	background-position: top center;
 }
 
 
@@ -43,7 +48,7 @@ h2.header-table { margin-bottom: 0; border-bottom: 1px solid #eee; padding-botto
 
 /* Шапка сайта
 ---------------------------------------------------- */
-#header a { text-decoration: none; color: #333; }
+#header a { text-decoration: none; color: #fff; }
 
 #header .site-name { margin: 0 0 10px; font-size: 54px; line-height: 1em; font-weight: bold; }
 #header .site-name a:hover { color: #444AA3; }

@@ -249,7 +249,7 @@ $config['module']['image']['default']['round_corner_radius']  = '18';
 $config['module']['image']['default']['round_corner_rate']    = '40';
 $config['module']['image']['default']['path']['watermarks']   = '___path.root.server___/engine/lib/external/LiveImage/watermarks/';
 $config['module']['image']['default']['path']['fonts']        = '___path.root.server___/engine/lib/external/LiveImage/fonts/';
-$config['module']['image']['default']['jpg_quality']          = 95;  // Число от 0 до 100
+$config['module']['image']['default']['jpg_quality']          = 80;  // Число от 0 до 100
 
 $config['module']['image']['foto']['watermark_use']  = false;
 $config['module']['image']['foto']['round_corner']   = false;
@@ -276,11 +276,11 @@ $config['module']['wall']['text_min'] = 1;		      // Ограничение на
 /**
  * Настройка топика-фотосета
  */
-$config['module']['image']['photoset']['jpg_quality'] = 100;        // настройка модуля Image, качество обработки фото
+$config['module']['image']['photoset']['jpg_quality'] = 80;        // настройка модуля Image, качество обработки фото
 $config['module']['topic']['photoset']['photo_max_size'] = 6*1024;  // максимально допустимый размер фото, Kb
-$config['module']['topic']['photoset']['count_photos_min'] = 2;     // минимальное количество фоток
-$config['module']['topic']['photoset']['count_photos_max'] = 30;    // максимальное количество фоток
-$config['module']['topic']['photoset']['per_page'] = 20;            // число фоток для одновременной загрузки
+$config['module']['topic']['photoset']['count_photos_min'] = 1;     // минимальное количество фоток
+$config['module']['topic']['photoset']['count_photos_max'] = 10;    // максимальное количество фоток
+$config['module']['topic']['photoset']['per_page'] = 10;            // число фоток для одновременной загрузки
 $config['module']['topic']['photoset']['size'] = array(             // список размеров превью, которые необходимо делать при загрузке фото
 	array(
 		'w' => 1000,

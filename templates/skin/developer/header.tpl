@@ -120,6 +120,7 @@
 
 	<div id="container" class="{hook run='container_class'}">
 		{include file='header_top.tpl'}
+		{hook run='wmessage'}
 		{include file='nav.tpl'}
 
 		<div id="wrapper" class="{hook run='wrapper_class'}">

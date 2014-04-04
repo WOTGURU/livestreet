@@ -9,7 +9,7 @@
 
 {assign var=oMainPhoto value=$oTopic->getPhotosetMainPhoto()}
 {if $oMainPhoto}
-<div class="topic-photo-preview" id="photoset-main-preview-{$oTopic->getId()}" onclick="window.location='{$oTopic->getUrl()}#photoset'">
+<div class="topic-photo-preview" id="photoset-main-preview-{$oTopic->getId()}">
 	<div class="topic-photo-count" id="photoset-photo-count-{$oTopic->getId()}">{$oTopic->getPhotosetCount()} {$aLang.topic_photoset_photos}</div>
 	
 	{if $oMainPhoto->getDescription()}
@@ -29,7 +29,7 @@
 		{$oTopic->getTextShort()}
 		{if $oTopic->getTextShort()!=$oTopic->getText()}
 			<br />
-			<a href="{$oTopic->getUrl()}#cut" title="{$aLang.topic_read_more}">
+			<a href="{$oTopic->getUrl()}" title="{$aLang.topic_read_more}">
 				{if $oTopic->getCutText()}
 					{$oTopic->getCutText()}
 				{else}
@@ -45,19 +45,26 @@
 </div> 
 
 
-{if !$bTopicList}
+
 	<script type="text/javascript" src="{cfg name='path.root.engine_lib'}/external/prettyPhoto/js/prettyPhoto.js"></script>	
 	<link rel='stylesheet' type='text/css' href="{cfg name='path.root.engine_lib'}/external/prettyPhoto/css/prettyPhoto.css" />
 	<script type="text/javascript">
-		jQuery(document).ready(function($) {	
-			$('.photoset-image').prettyPhoto({
-				social_tools:'',
-				show_title: false,
-				slideshow:false,
-				deeplinking: false
-			});
-		});
-	</script>
+    jQuery(document).ready(function($) {	
+        $('.photoset-image').prettyPhoto({
+	        social_tools:'',
+	        show_title: false,
+	        slideshow:false,
+	        deeplinking: true,
+		overlay_gallery: false,
+		opacity: 0.85,
+		animation_speed: 0
+        }); 
+        $('.topic-photo-preview').on('click',function(e){
+            e.preventDefault();
+            $('.photoset-image').first().triggerHandler('click');
+        })
+    });
+    </script>
 	
 	
 	<div class="topic-photo-images">
@@ -81,7 +88,7 @@
 			<a href="javascript:ls.photoset.getMore({$oTopic->getId()})" id="topic-photo-more" class="topic-photo-more">{$aLang.topic_photoset_show_more} &darr;</a>
 		{/if}
 	</div>
-{/if}
+
 
  
 {include file='topic_part_footer.tpl'}
