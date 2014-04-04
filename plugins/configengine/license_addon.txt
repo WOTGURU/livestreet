@@ -1,0 +1,18 @@
+
+	Configengine plugin
+	(P) PSNet, 2008 - 2013
+	http://psnet.lookformp3.net/
+	http://livestreet.ru/profile/PSNet/
+	https://catalog.livestreetcms.com/profile/PSNet/
+	http://livestreetguide.com/developer/PSNet/
+
+
+--- Дополнение/пояснение к лицензии:
+
+При создании продуктов которые используют API плагина ConfigEngine, к документации (описанию) плагина должна быть добавлена текстовая информация:
+
+  Плагин использует хранилище ConfigEngine (http://livestreetcms.com/addons/view/380/) от PSNet (http://psnet.lookformp3.net/).
+
+В случае если используется ввод текста для описания с возможностью вставки html кода, тогда следует делать ссылки:
+
+  Плагин использует хранилище <a href="http://livestreetcms.com/addons/view/380/">ConfigEngine</a> от <a href="http://psnet.lookformp3.net/">PSNet</a>.

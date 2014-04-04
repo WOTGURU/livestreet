@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Blog Ping (fixed)</lang>
+		<lang name="russian">Пингатор (исправленный)</lang>
+	</name>
+	<author>
+		<lang name="default">Empirik, Stepan Tanasiychuk</lang>
+	</author>
+	<homepage>http://myequipment.ru/</homepage>
+	<version>1.0.2</version>
+	<requires>
+		<livestreet>0.4.2</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Plugin to automatically send messages to the search engines to update the content on the site</lang>
+		<lang name="russian">Плагин для автоматической отправки сообщений поисковым системам об обновления содержимого на сайте</lang>	</description>
+	<delegate>
+		<module></module>
+		<action></action>
+		<template></template>
+		<entity></entity>
+	</delegate>
+</plugin>

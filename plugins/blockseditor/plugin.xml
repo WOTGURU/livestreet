@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>
+    <lang name="default">Block content</lang>
+  </name>
+  <author>
+    <lang name="default">PSNet</lang>
+  </author>
+  <homepage>http://psnet.lookformp3.net</homepage>
+  <settings>{blockseditor}</settings>
+  <version>1.0.1</version>
+  <requires>
+    <livestreet>1.0</livestreet>
+    <plugins>
+      <plugin>configengine</plugin>
+    </plugins>
+  </requires>
+  <description>
+    <lang name="default">Plugin to put text into block in sidebar and edit it through a web interface.</lang>
+    <lang name="russian">Плагин для установки произвольного текста в блок в сайдбаре и его редактирования через веб-интерфейс.</lang>
+    <lang name="ukrainian">Плагін для встановлення тексту в блок у садбарі і його редагування через веб-інтерфейс.</lang>
+  </description>
+</plugin>

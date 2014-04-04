@@ -1,0 +1,1 @@
+<li {if $sMenuItemSelect=='content'}class="active"{/if}><a href="{router page='content'}">{$aLang.plugin.content.plugin_content_menu_title}</a></li>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Preview</lang>
+    </name>
+    <author>
+        <lang name="default">[netlanc] Бишовец Николай</lang>
+    </author>
+    <homepage>http://netlanc.net</homepage>
+    <settings></settings>
+    <version>0.1</version>
+    <requires>
+        <livestreet>1.x</livestreet>
+        <plugins></plugins>
+    </requires>
+    <description>
+        <lang name="default">Preview</lang>
+    </description>
+</plugin>

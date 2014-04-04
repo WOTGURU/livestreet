@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+        <name>
+                <lang name="default">RSS Content Importer</lang>
+                <lang name="russian">RSS Контентщик</lang>
+        </name>
+        <author>
+                <lang name="default">Alexandr Tsiolko</lang>
+                <lang name="russian">Александр Цёлко</lang>
+        </author>
+        <homepage>http://seu.su/</homepage>
+		<settings>{content}</settings>
+        <version>1.0.1</version>
+        <requires>
+                <livestreet>1.0.0</livestreet>
+                <plugins>
+                </plugins>
+        </requires>
+        <description>
+                <lang name="default">It help you to add content to your site from rss feeds</lang>
+                <lang name="russian">Плагин для массового импорта котнента в блоги из rss лент</lang>
+        </description>
+        <delegate>
+                <module></module>
+                <action></action>
+                <template></template>
+                <entity></entity>
+        </delegate>
+</plugin>

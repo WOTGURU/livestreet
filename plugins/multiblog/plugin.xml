@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Multiblog</lang>
+        <lang name="russian">Multiblog</lang>
+    </name>
+    <author>
+        <lang name="default">1099511627776</lang>
+        <lang name="russian">1099511627776</lang>
+    </author>
+    <homepage>http://habrahabr.ru/users/1099511627776/</homepage>
+    <version>1.0.7</version>
+    <requires>
+        <livestreet>1.0.3</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Allows to publish topic into multiple blogs</lang>
+        <lang name="russian">Позволяет публиковать топики в 2 и больше блогов</lang>
+    </description>
+</plugin>

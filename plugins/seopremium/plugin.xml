@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">SEOPremium</lang>
+    </name>
+    <author>
+        <lang name="default">web-studio stfalcon.com</lang>
+    </author>
+    <homepage>http://stfalcon.com</homepage>
+    <version>0.1</version>
+    <requires>
+        <livestreet>1.0</livestreet>
+        <plugins>
+            <plugin name="seo" version="0.3.0">seo</plugin>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Optimization site for search engines (additional features)</lang>
+        <lang name="russian">Оптимизация сайта для поисковых систем (дополнительные возможности)</lang>
+        <lang name="ukrainian">Оптимізація сайту для пошукових систем (додаткові можливості)</lang>
+    </description>
+</plugin>
+

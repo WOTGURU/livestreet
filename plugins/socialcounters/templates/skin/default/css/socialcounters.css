@@ -1,0 +1,107 @@
+.socialcounters {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.socialcounters .text {
+    display: inline-block;
+    *display: inline;
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 10px;
+    padding: 3px 7px 3px 3px;
+    position: relative;
+    zoom: 1;
+}
+
+.socialcounters .button {
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    *display: inline;
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 10px;
+    padding: 3px 7px 3px 3px;
+    position: relative;
+    zoom: 1;
+}
+
+.socialcounters .button.disabled {
+    cursor: default!important;
+}
+
+.socialcounters .button i {
+    display: block;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    width: 20px;
+}
+.socialcounters a[href="#vk"] {
+    background: #48729e;
+}
+
+.socialcounters a[href="#vk"] i {
+    background: url("../images/sprite.jpg") 0 0 no-repeat;
+}
+.socialcounters a[href="#vk"] span {
+    padding-left: 2px;
+}
+
+.socialcounters a[href="#facebook"] {
+    background: #3c5a98;
+}
+
+.socialcounters a[href="#facebook"] i {
+    background: url("../images/sprite.jpg") -20px 0 no-repeat;
+}
+
+.socialcounters a[href="#facebook"] span {
+    padding-left: 2px;
+}
+
+.socialcounters a[href="#twitter"] {
+    background: #00acee;
+}
+
+.socialcounters a[href="#twitter"] i {
+    background: url("../images/sprite.jpg") -40px 0 no-repeat;
+    margin-left: 2px;
+}
+
+.socialcounters a[href="#twitter"] span {
+    padding-left: 5px;
+}
+
+.socialcounters a[href="#ya"] {
+    background: #da392f;
+}
+
+.socialcounters a[href="#ya"] i {
+    background: url("../images/sprite.jpg") -60px 0 no-repeat;
+    margin-left: 2px;
+}
+
+.socialcounters a[href="#ya"] span {
+    padding-left: 5px;
+}
+
+.socialcounters a[href="#gp"] {
+    background: #d34231;
+}
+
+.socialcounters a[href="#gp"] i {
+    background: url("../images/sprite.jpg") -120px 0 no-repeat;
+    margin-left: 2px;
+}
+
+.socialcounters a[href="#gp"] span {
+    padding-left: 5px;
+}

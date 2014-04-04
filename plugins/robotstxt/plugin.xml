@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Robots.txt Controller</lang>
+	</name>
+	<author>
+		<lang name="default">PSNet</lang>
+	</author>
+	<homepage>http://psnet.lookformp3.net</homepage>
+	<settings>{robotstxt}</settings>
+	<version>1.0.2</version>
+	<requires>
+		<livestreet>1.0</livestreet>
+		<plugins>
+			<plugin>configengine</plugin>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Plugin to emulate the robots.txt file and edit it through a web interface.</lang>
+		<lang name="russian">Плагин для эмуляции файла robots.txt и его редактирования через веб-интерфейс.</lang>
+		<lang name="ukrainian">Плагін для емуляції файлу robots.txt і його редагування через веб-інтерфейс.</lang>
+	</description>
+</plugin>
